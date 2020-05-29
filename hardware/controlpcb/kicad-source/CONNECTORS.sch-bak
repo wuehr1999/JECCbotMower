@@ -702,10 +702,10 @@ Wire Wire Line
 Text GLabel 4700 5500 0    50   Input ~ 0
 GPIO5
 $Comp
-L devices:Label L?
+L devices:Label L3
 U 1 1 5ED4C81E
 P 3850 7150
-F 0 "L?" H 4078 7256 60  0000 L CNN
+F 0 "L3" H 4078 7256 60  0000 L CNN
 F 1 "Label" H 4078 7150 60  0000 L CNN
 F 2 "labels:jecc_logo_7.2x2.2" H 4078 7044 60  0000 L CNN
 F 3 "" H 3850 7150 60  0000 C CNN
@@ -713,10 +713,10 @@ F 3 "" H 3850 7150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L devices:Label L?
+L devices:Label L4
 U 1 1 5ED4D526
 P 4750 7150
-F 0 "L?" H 4978 7256 60  0000 L CNN
+F 0 "L4" H 4978 7256 60  0000 L CNN
 F 1 "Label" H 4978 7150 60  0000 L CNN
 F 2 "labels:Top" H 4978 7044 60  0000 L CNN
 F 3 "" H 4750 7150 60  0000 C CNN
@@ -724,10 +724,10 @@ F 3 "" H 4750 7150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L devices:Label L?
+L devices:Label L5
 U 1 1 5ED4D70B
 P 5600 7150
-F 0 "L?" H 5828 7256 60  0000 L CNN
+F 0 "L5" H 5828 7256 60  0000 L CNN
 F 1 "Label" H 5828 7150 60  0000 L CNN
 F 2 "labels:Bot" H 5828 7044 60  0000 L CNN
 F 3 "" H 5600 7150 60  0000 C CNN

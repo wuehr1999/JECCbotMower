@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
+Title "JECCbot Mower PCB ESP32"
 Date ""
 Rev ""
-Comp ""
+Comp "JECC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
