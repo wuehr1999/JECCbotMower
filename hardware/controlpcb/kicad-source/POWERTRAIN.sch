@@ -374,9 +374,9 @@ Wire Wire Line
 Text Label 1400 2950 0    50   ~ 0
 SENSE_B
 Text GLabel 1200 1700 0    50   Input ~ 0
-INH
+DRIVE_INH
 Text GLabel 1250 3550 0    50   Input ~ 0
-INH
+DRIVE_INH
 Wire Wire Line
 	1350 1700 1200 1700
 Wire Wire Line
@@ -756,9 +756,9 @@ Wire Wire Line
 Text Label 6700 2950 0    50   ~ 0
 SENSE_A
 Text GLabel 6500 1700 0    50   Input ~ 0
-INH
+DRIVE_INH
 Text GLabel 6550 3550 0    50   Input ~ 0
-INH
+DRIVE_INH
 Wire Wire Line
 	6650 1700 6500 1700
 Wire Wire Line
@@ -1182,7 +1182,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6750 4800 6750
 Text GLabel 7050 5050 2    50   Output ~ 0
-BEMF1
+DRIVE_BEMF1
 Text Label 3500 6800 0    50   ~ 0
 VREF_B
 Wire Wire Line
@@ -1373,7 +1373,7 @@ Connection ~ 2750 5100
 Text Notes 2350 5450 0    50   ~ 0
 Measure up to about 5V 
 Text GLabel 3450 5100 2    50   Output ~ 0
-BEMF2
+DRIVE_BEMF2
 Wire Wire Line
 	2750 5100 3450 5100
 $Comp
@@ -1390,7 +1390,7 @@ $EndComp
 Text Notes 4250 1000 0    50   ~ 0
 change rating for different input
 Text GLabel 8200 5750 2    50   Output ~ 0
-IS1
+DRIVE_IS
 $Comp
 L devices:R_0603 R40
 U 1 1 5ED907B7
@@ -1467,13 +1467,13 @@ F 3 "" H 9850 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9500 5050 0    50   Input ~ 0
-PWM1
+DRIVE_PWM1
 Text GLabel 9500 5250 0    50   Input ~ 0
-PWM2
+DRIVE_PWM2
 Text GLabel 9500 5450 0    50   Input ~ 0
-PWM3
+DRIVE_PWM3
 Text GLabel 9500 5650 0    50   Input ~ 0
-PWM4
+DRIVE_PWM4
 Wire Wire Line
 	9500 5050 9750 5050
 Wire Wire Line

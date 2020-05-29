@@ -532,30 +532,19 @@ Wire Wire Line
 	1950 6650 2350 6650
 Wire Wire Line
 	2350 6850 1950 6850
-$Comp
-L mechanical-connectors:CONN_02X09 P7
-U 1 1 5EEE886E
-P 5000 4150
-F 0 "P7" H 5000 4855 50  0000 C CNN
-F 1 "CONN_02X09" H 5000 4764 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 5000 4673 50  0000 C CNN
-F 3 "" H 5000 2950 50  0000 C CNN
-	1    5000 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4750 4550 4600 4550
+	4750 4650 4600 4650
 Wire Wire Line
-	4600 4550 4600 4700
+	4600 4650 4600 4800
 $Comp
 L power-supply:GND #PWR0103
 U 1 1 5EEEE5D5
-P 4600 4700
-F 0 "#PWR0103" H 4600 4450 50  0001 C CNN
-F 1 "GND" H 4605 4527 50  0000 C CNN
-F 2 "" H 4600 4700 50  0000 C CNN
-F 3 "" H 4600 4700 50  0000 C CNN
-	1    4600 4700
+P 4600 4800
+F 0 "#PWR0103" H 4600 4550 50  0001 C CNN
+F 1 "GND" H 4605 4627 50  0000 C CNN
+F 2 "" H 4600 4800 50  0000 C CNN
+F 3 "" H 4600 4800 50  0000 C CNN
+	1    4600 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -648,4 +637,101 @@ Text GLabel 4400 4050 0    50   BiDi ~ 0
 GPIO2
 Text GLabel 4400 4150 0    50   BiDi ~ 0
 GPIO3
+$Comp
+L mechanical-connectors:CONN_02X10 P7
+U 1 1 5EFD6550
+P 5000 4200
+F 0 "P7" H 5000 4955 50  0000 C CNN
+F 1 "CONN_02X10" H 5000 4864 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 5000 4773 50  0000 C CNN
+F 3 "" H 5000 3000 50  0000 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 4650 2    50   BiDi ~ 0
+GPIO5
+Text GLabel 4400 4550 0    50   Input ~ 0
+ADC
+Wire Wire Line
+	5250 4650 5600 4650
+Wire Wire Line
+	4750 4550 4400 4550
+$Comp
+L mechanical-connectors:CONN_01X03 P8
+U 1 1 5ED1E35F
+P 5150 5600
+F 0 "P8" H 5228 5686 50  0000 L CNN
+F 1 "CONN_01X03" H 5228 5595 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5228 5504 50  0000 L CNN
+F 3 "" H 5150 5600 50  0000 C CNN
+	1    5150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+5V #PWR0115
+U 1 1 5ED22CF6
+P 4800 5350
+F 0 "#PWR0115" H 4800 5200 50  0001 C CNN
+F 1 "+5V" H 4815 5523 50  0000 C CNN
+F 2 "" H 4800 5350 50  0000 C CNN
+F 3 "" H 4800 5350 50  0000 C CNN
+	1    4800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR0116
+U 1 1 5ED23551
+P 4850 5800
+F 0 "#PWR0116" H 4850 5550 50  0001 C CNN
+F 1 "GND" H 4855 5627 50  0000 C CNN
+F 2 "" H 4850 5800 50  0000 C CNN
+F 3 "" H 4850 5800 50  0000 C CNN
+	1    4850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5800 4850 5700
+Wire Wire Line
+	4850 5700 4950 5700
+Wire Wire Line
+	4950 5600 4800 5600
+Wire Wire Line
+	4800 5600 4800 5350
+Wire Wire Line
+	4950 5500 4700 5500
+Text GLabel 4700 5500 0    50   Input ~ 0
+GPIO5
+$Comp
+L devices:Label L?
+U 1 1 5ED4C81E
+P 3850 7150
+F 0 "L?" H 4078 7256 60  0000 L CNN
+F 1 "Label" H 4078 7150 60  0000 L CNN
+F 2 "labels:jecc_logo_7.2x2.2" H 4078 7044 60  0000 L CNN
+F 3 "" H 3850 7150 60  0000 C CNN
+	1    3850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L?
+U 1 1 5ED4D526
+P 4750 7150
+F 0 "L?" H 4978 7256 60  0000 L CNN
+F 1 "Label" H 4978 7150 60  0000 L CNN
+F 2 "labels:Top" H 4978 7044 60  0000 L CNN
+F 3 "" H 4750 7150 60  0000 C CNN
+	1    4750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L?
+U 1 1 5ED4D70B
+P 5600 7150
+F 0 "L?" H 5828 7256 60  0000 L CNN
+F 1 "Label" H 5828 7150 60  0000 L CNN
+F 2 "labels:Bot" H 5828 7044 60  0000 L CNN
+F 3 "" H 5600 7150 60  0000 C CNN
+	1    5600 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

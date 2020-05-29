@@ -1,0 +1,131 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CON_wuerth:691322310002 CN?
+U 1 1 5F0A01CD
+P 1350 1700
+F 0 "CN?" H 1267 1335 50  0000 C CNN
+F 1 "691322310002" H 1267 1426 50  0000 C CNN
+F 2 "CON_wuerth:WR-TBL_691322310002" H 1267 1517 50  0000 C CNN
+F 3 "" H 1350 1400 50  0000 C CNN
+	1    1350 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:Q_NPN_BEC Q?
+U 1 1 5F0A1285
+P 2550 1650
+F 0 "Q?" H 2740 1741 50  0000 L CNN
+F 1 "2N7002" H 2740 1650 50  0000 L CNN
+F 2 "SOT_TO:SOT-23" H 2740 1559 50  0000 L CNN
+F 3 "" H 2550 1650 50  0000 C CNN
+	1    2550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:D_Small D?
+U 1 1 5F0A1D5C
+P 3650 1350
+F 0 "D?" H 3650 1055 50  0000 C CNN
+F 1 "BAT46W" H 3650 1146 50  0000 C CNN
+F 2 "diodes:SOD-123" H 3650 1237 50  0000 C CNN
+F 3 "" V 3650 1350 50  0000 C CNN
+	1    3650 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:R_0603 R?
+U 1 1 5F0A2786
+P 2200 1450
+F 0 "R?" H 2259 1496 50  0000 L CNN
+F 1 "R_0603" H 2259 1405 50  0000 L CNN
+F 2 "resistors:R_0603" H 2200 1300 50  0001 C CNN
+F 3 "" H 2200 1450 50  0000 C CNN
+	1    2200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:R_0603 R?
+U 1 1 5F0A2B20
+P 2650 1200
+F 0 "R?" H 2709 1246 50  0000 L CNN
+F 1 "R_0603" H 2709 1155 50  0000 L CNN
+F 2 "resistors:R_0603" H 2650 1050 50  0001 C CNN
+F 3 "" H 2650 1200 50  0000 C CNN
+	1    2650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+3V3 #PWR?
+U 1 1 5F0A2D0D
+P 2200 1000
+F 0 "#PWR?" H 2200 850 50  0001 C CNN
+F 1 "+3V3" H 2215 1173 50  0000 C CNN
+F 2 "" H 2200 1000 50  0000 C CNN
+F 3 "" H 2200 1000 50  0000 C CNN
+	1    2200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5F0A30C9
+P 2650 1950
+F 0 "#PWR?" H 2650 1700 50  0001 C CNN
+F 1 "GND" H 2655 1777 50  0000 C CNN
+F 2 "" H 2650 1950 50  0000 C CNN
+F 3 "" H 2650 1950 50  0000 C CNN
+	1    2650 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1350 2650 1350
+Wire Wire Line
+	2650 1350 2650 1450
+Wire Wire Line
+	2650 1300 2650 1350
+Connection ~ 2650 1350
+Wire Wire Line
+	2200 1350 2200 1050
+Wire Wire Line
+	2650 1100 2650 1050
+Wire Wire Line
+	2650 1050 2200 1050
+Connection ~ 2200 1050
+Wire Wire Line
+	2200 1050 2200 1000
+Wire Wire Line
+	2200 1550 2200 1650
+Wire Wire Line
+	2200 1650 2350 1650
+Wire Wire Line
+	1550 1650 2200 1650
+Connection ~ 2200 1650
+Wire Wire Line
+	2650 1850 2650 1900
+Wire Wire Line
+	2650 1900 1600 1900
+Wire Wire Line
+	1600 1900 1600 1750
+Wire Wire Line
+	1600 1750 1550 1750
+Wire Wire Line
+	2650 1950 2650 1900
+Connection ~ 2650 1900
+Wire Wire Line
+	3750 1350 4100 1350
+Text GLabel 4100 1350 2    50   Output ~ 0
+EM_STOP
+$EndSCHEMATC

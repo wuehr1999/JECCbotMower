@@ -273,19 +273,6 @@ Wire Wire Line
 Text Label 1700 1750 0    50   ~ 0
 IN_KNIFE
 $Comp
-L power-supply:+3V3 #PWR074
-U 1 1 5ECFE999
-P 1900 2000
-F 0 "#PWR074" H 1900 1850 50  0001 C CNN
-F 1 "+3V3" H 1915 2173 50  0000 C CNN
-F 2 "" H 1900 2000 50  0000 C CNN
-F 3 "" H 1900 2000 50  0000 C CNN
-	1    1900 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 2050 1900 2000
-$Comp
 L IC_logic:74xx08 U15
 U 1 1 5ED0133B
 P 2450 4900
@@ -362,7 +349,7 @@ $EndComp
 Text GLabel 2200 4700 0    50   Input ~ 0
 EM_STOP
 Text GLabel 2200 4600 0    50   Input ~ 0
-KNIFE
+KNIFE_PWM
 Wire Wire Line
 	2200 4600 2350 4600
 Wire Wire Line
@@ -372,7 +359,7 @@ Wire Wire Line
 Text Label 3250 4600 0    50   ~ 0
 IN_KNIFE
 Text GLabel 3100 6600 2    50   Output ~ 0
-IS2
+KNIFE_IS
 $Comp
 L devices:R_0603 R?
 U 1 1 5ED2C8F8
@@ -463,4 +450,6 @@ F 3 "" H 5450 2750 50  0000 C CNN
 	1    5450 2750
 	1    0    0    1   
 $EndComp
+Text GLabel 1900 2050 0    50   Input ~ 0
+KNIFE_INH
 $EndSCHEMATC
