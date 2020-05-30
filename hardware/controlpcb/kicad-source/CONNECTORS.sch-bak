@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
-Title ""
+Title "JECCbot Mower PCB ESP32"
 Date ""
 Rev ""
-Comp ""
+Comp "JECC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -734,4 +734,41 @@ F 3 "" H 5600 7150 60  0000 C CNN
 	1    5600 7150
 	1    0    0    -1  
 $EndComp
+$Comp
+L devices:CP_Small C?
+U 1 1 5ED62ECA
+P 3950 5600
+F 0 "C?" H 4038 5646 50  0000 L CNN
+F 1 "DNI" H 4038 5555 50  0000 L CNN
+F 2 "" H 3950 5600 50  0000 C CNN
+F 3 "" H 3950 5600 50  0000 C CNN
+	1    3950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+5V #PWR?
+U 1 1 5ED63EE5
+P 3950 5450
+F 0 "#PWR?" H 3950 5300 50  0001 C CNN
+F 1 "+5V" H 3965 5623 50  0000 C CNN
+F 2 "" H 3950 5450 50  0000 C CNN
+F 3 "" H 3950 5450 50  0000 C CNN
+	1    3950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR?
+U 1 1 5ED6445F
+P 3950 5750
+F 0 "#PWR?" H 3950 5500 50  0001 C CNN
+F 1 "GND" H 3955 5577 50  0000 C CNN
+F 2 "" H 3950 5750 50  0000 C CNN
+F 3 "" H 3950 5750 50  0000 C CNN
+	1    3950 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5500 3950 5450
+Wire Wire Line
+	3950 5750 3950 5700
 $EndSCHEMATC

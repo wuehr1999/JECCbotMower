@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title ""
+Title "JECCbot Mower PCB ESP32"
 Date ""
 Rev ""
-Comp ""
+Comp "JECC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1364,7 +1364,7 @@ U 1 1 5EB9D7B8
 P 4250 1250
 F 0 "C25" H 4338 1341 50  0000 L CNN
 F 1 "DNI" H 4338 1250 50  0000 L CNN
-F 2 "capacitors:c_elec_3x5.3" H 4338 1159 50  0000 L CNN
+F 2 "capacitors:c_elec_4x4.5" H 4338 1159 50  0000 L CNN
 F 3 "" H 4250 1250 50  0000 C CNN
 	1    4250 1250
 	1    0    0    -1  
@@ -1382,7 +1382,7 @@ U 1 1 5EB9C187
 P 9500 1250
 F 0 "C35" H 9588 1341 50  0000 L CNN
 F 1 "DNI" H 9588 1250 50  0000 L CNN
-F 2 "capacitors:c_elec_3x5.3" H 9588 1159 50  0000 L CNN
+F 2 "capacitors:c_elec_4x4.5" H 9588 1159 50  0000 L CNN
 F 3 "" H 9500 1250 50  0000 C CNN
 	1    9500 1250
 	1    0    0    -1  

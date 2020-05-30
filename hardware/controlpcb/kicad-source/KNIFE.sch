@@ -263,7 +263,7 @@ AR Path="/5EF4501A/5ECF4F48" Ref="C?"  Part="1"
 AR Path="/5EF58CE3/5ECF4F48" Ref="C41"  Part="1" 
 F 0 "C41" H 4988 1691 50  0000 L CNN
 F 1 "DNI" H 4988 1600 50  0000 L CNN
-F 2 "capacitors:c_elec_3x5.3" H 4988 1509 50  0000 L CNN
+F 2 "capacitors:c_elec_4x4.5" H 4988 1509 50  0000 L CNN
 F 3 "" H 4900 1600 50  0000 C CNN
 	1    4900 1600
 	1    0    0    -1  
