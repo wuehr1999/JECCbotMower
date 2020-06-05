@@ -244,7 +244,7 @@ TX
 Text Label 5250 2450 0    50   ~ 0
 RX
 $Comp
-L IC_logic:74xx4052 U2
+L JECCbotESP32-rescue:74xx4052-IC_logic U2
 U 1 1 5ECC1718
 P 8900 2100
 F 0 "U2" H 8925 3175 50  0000 C CNN
@@ -355,7 +355,7 @@ MUX1_A
 Text Label 2650 2650 0    50   ~ 0
 MUX1_B
 $Comp
-L IC_logic:74xx4052 U3
+L JECCbotESP32-rescue:74xx4052-IC_logic U3
 U 1 1 5ED2CC29
 P 8850 3350
 F 0 "U3" H 8875 4425 50  0000 C CNN
